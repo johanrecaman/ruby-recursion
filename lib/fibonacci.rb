@@ -21,5 +21,3 @@ def fibonacciRecursive(n)
     array = fibonacciRecursive(n - 1)
     array.push(array[n -1] + array[n -2])
 end
-
-puts fibonacciRecursive(100)
